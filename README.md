@@ -1,136 +1,87 @@
-# 🚀 Repositório Fábio Pantoja
+# 🎯 Fábio Pantoja - Mentoria de IA
 
-## 📂 Estrutura do Projeto
-
-```
-pantoja/
-├── index.html                          # Seu site de mentoria de IA
-├── templates/                          # Templates de sites para vender
-│   └── psicologo/                     # Template completo de psicólogo
-│       ├── index.html                 # Site pronto (só personalizar)
-│       ├── README.md                  # Como usar o template
-│       └── BRIEFING-PSICOLOGO.md     # Perguntas para coletar dados
-├── docs/                              # Documentação
-│   ├── ESTRATEGIA-SITES-2000.md      # Estratégia completa do negócio
-│   ├── INICIO-RAPIDO.md              # Primeiros passos (LEIA ISSO!)
-│   └── COMO-CRIAR-GOOGLE-FORMS.md    # Tutorial Google Forms
-├── .claude-context.md                 # Contexto da mentoria de IA
-└── ENTREGAVEIS.md                     # Lista de entregáveis da mentoria
-
-```
+Site profissional de vendas para mentoria 1:1 de Inteligência Artificial.
 
 ---
 
-## 🎯 DOIS PROJETOS NESTE REPO:
+## 🌐 Site Publicado
 
-### 1️⃣ **SEU SITE DE MENTORIA DE IA** (index.html)
-- Site completo e profissional
-- Vende mentoria 1:1 por R$ 3.000
-- Case da Janice em destaque
-- 15 entregáveis com ancoragem de preço
-- Pronto para deploy
-
-**Ver site:**
-- https://pantoja.netlify.app (após merge)
+**https://pantoja.netlify.app**
 
 ---
 
-### 2️⃣ **NEGÓCIO DE SITES R$ 2.000** (NOVO! 🔥)
-- Template completo de site para psicólogos
-- Estratégia de vendas documentada
-- Processo de coleta de dados (briefing)
-- Meta: 1 site = R$ 2.000 (seu mínimo para se manter)
+## 💼 Sobre a Mentoria
 
-**COMECE POR AQUI AMANHÃ:**
-📖 **`docs/INICIO-RAPIDO.md`** ← LEIA ISSO PRIMEIRO!
+**Mentoria Individual de IA para Profissionais de Alto Nível**
 
----
-
-## 🚀 PRÓXIMOS PASSOS (AMANHÃ)
-
-### Para o Site de Mentoria:
-1. Fazer merge no GitHub (link nas mensagens anteriores)
-2. Ver site publicado no Netlify
-3. Ajustar se necessário
-
-### Para o Negócio de Sites:
-1. **Ler:** `docs/INICIO-RAPIDO.md`
-2. **Criar:** Google Forms (15 min) - tutorial em `docs/COMO-CRIAR-GOOGLE-FORMS.md`
-3. **Criar:** 1 site demo/portfólio usando o template
-4. **Prospectar:** Salvar 10 psicólogos no Instagram
-5. **Meta:** Fechar 1ª venda em 14 dias = R$ 1.500-2.000
+- **Investimento:** R$ 3.000 (10 sessões × R$ 300)
+- **Formato:** 10 sessões de 2h cada, 1x por semana
+- **Duração:** ~2,5 meses
+- **Diferencial:** Resultados IMEDIATOS (aplica no mesmo dia)
+- **Garantia:** 100% reembolso após 2 primeiras sessões
 
 ---
 
-## 📚 DOCUMENTAÇÃO IMPORTANTE
+## 🎯 Público-Alvo
 
-### Mentoria de IA:
-- `.claude-context.md` - Resumo do projeto
-- `ENTREGAVEIS.md` - Lista completa dos 15+ métodos
-
-### Negócio de Sites:
-- `docs/ESTRATEGIA-SITES-2000.md` - Estratégia completa
-- `docs/INICIO-RAPIDO.md` - **COMECE AQUI!**
-- `docs/COMO-CRIAR-GOOGLE-FORMS.md` - Tutorial passo a passo
-- `templates/psicologo/README.md` - Como usar o template
+- Magistrados e Juízes
+- Advogados
+- Profissionais de alto nível
+- Gestores e C-levels
+- Analistas
 
 ---
 
-## 💰 MODELO DE NEGÓCIO
+## 📋 Diferenciais do Site
 
-### Sites para Psicólogos:
-- **Primeiros 3 clientes:** R$ 1.500 (criar portfólio)
-- **Preço padrão:** R$ 2.500
-- **Manutenção:** R$ 200-400/mês (renda recorrente)
-
-### Meta Conservadora:
-- **1 site/mês** = R$ 2.000 (cobre suas necessidades)
-- **2 sites/mês** = R$ 4.000-5.000 (lucro)
-- **3 sites/mês** = R$ 6.000-7.500 (consolidado)
-
-### Tempo por site:
-- 4-6 horas de trabalho
-- Prazo cliente: 48-72h
+✅ SEO completo (meta tags, keywords, Open Graph)
+✅ Hero com "Pego na Sua Mão" + "Resultados IMEDIATOS"
+✅ Case da Janice (72 anos, Analista) em destaque
+✅ Seção de 15+ Entregáveis com ancoragem de preço
+✅ FAQ completo para quebrar objeções
+✅ Método personalizado A→B
+✅ Design profissional e responsivo
 
 ---
 
-## 🎯 VOCÊ TEM TUDO PRONTO:
+## 💡 Entregáveis da Mentoria
 
-✅ Template profissional
-✅ Processo documentado
-✅ Estratégia de vendas
-✅ Formulário de coleta de dados
-✅ Precificação definida
-✅ Guia de primeiros passos
+Ver arquivo `ENTREGAVEIS.md` para lista completa dos 15+ métodos práticos.
 
-**Agora é EXECUÇÃO! 💪**
+**Ancoragem de Valor:**
+- Valor total separado: R$ 12.854
+- Investimento na mentoria: R$ 3.000
+- Economia: R$ 9.854
 
 ---
 
-## 📞 PRÓXIMA SESSÃO COMIGO:
+## 📂 Arquivos do Projeto
 
-Quando abrir nova sessão:
-- Eu verei toda essa conversa
-- Eu verei todos os arquivos
-- Pode continuar de onde parou
-
-**Me conte:**
-- Como foi o primeiro dia
-- Dúvidas de implementação
-- Se quer templates de outros nichos (advogado, nutricionista, etc)
+- `index.html` - Site de vendas completo
+- `.claude-context.md` - Contexto e estratégia
+- `ENTREGAVEIS.md` - Lista de entregáveis
+- `README.md` - Este arquivo
 
 ---
 
-## 🔥 LEMBRE-SE:
+## 🚀 Deploy
 
-> "Você só precisa de 1 site por mês para se manter.
-> Cada site adicional é lucro puro.
-> O mercado é GIGANTE.
-> As ferramentas estão prontas.
-> Agora é executar!"
+- **Hospedagem:** Netlify (grátis)
+- **Branch principal:** main
+- **Mudanças:** Via Pull Request (branch protegida)
 
 ---
 
-**Boa sorte! Você vai conseguir! 🚀**
+## 📞 Contato
 
-*Última atualização: 22/10/2025 - 22:39*
+**WhatsApp:** (27) 99268-1959
+
+---
+
+## 🔗 Outros Projetos
+
+**Negócio de Templates de Sites:** Veja o repositório `sites2000` para o negócio de criação de sites profissionais.
+
+---
+
+**Última atualização:** 22/10/2025 - 23:20
