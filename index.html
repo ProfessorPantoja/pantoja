@@ -3,7 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fábio Pantoja | Transforme seu Medo de IA em Poder</title>
+    <title>Mentoria de IA 1:1 | Fábio Pantoja | ChatGPT, Claude e Automações</title>
+    <meta name="description" content="Mentoria individual de Inteligência Artificial para profissionais de alto nível. Aprenda a dominar ChatGPT, Claude, automações e 15+ ferramentas práticas de IA em 10 sessões personalizadas.">
+    <meta name="keywords" content="mentoria IA, consultoria inteligência artificial, ChatGPT profissional, Claude AI, automação com IA, mentoria individual IA, consultor IA, Fábio Pantoja">
+    <meta name="author" content="Fábio Pantoja">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mentoria de IA 1:1 | Fábio Pantoja">
+    <meta property="og:description" content="Domine ChatGPT, Claude e 15+ ferramentas de IA aplicadas à sua realidade em 10 sessões personalizadas.">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Mentoria de IA 1:1 | Fábio Pantoja">
+    <meta property="twitter:description" content="Domine ChatGPT, Claude e 15+ ferramentas de IA aplicadas à sua realidade em 10 sessões personalizadas.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -305,6 +318,80 @@
             color: var(--text-secondary);
         }
         
+        /* --- Seção Entregáveis --- */
+        .deliverables {
+            background: linear-gradient(135deg, var(--dark-bg) 0%, #1E293B 100%);
+            color: var(--text-light);
+            padding: 100px 0;
+        }
+
+        .deliverables .section-title {
+            color: white;
+        }
+
+        .deliverables-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-bottom: 50px;
+        }
+
+        .deliverable-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 25px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .deliverable-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--primary);
+            transform: translateY(-5px);
+        }
+
+        .deliverable-item h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+            color: white;
+        }
+
+        .deliverable-item .price-tag {
+            font-size: 14px;
+            color: var(--primary-light);
+            font-weight: 700;
+        }
+
+        .value-box {
+            background: rgba(99, 102, 241, 0.1);
+            border: 2px solid var(--primary);
+            border-radius: 16px;
+            padding: 40px;
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .value-box .old-price {
+            font-size: 24px;
+            color: var(--text-secondary);
+            text-decoration: line-through;
+            margin-bottom: 10px;
+        }
+
+        .value-box .new-price {
+            font-size: 48px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .value-box .highlight-text {
+            font-size: 18px;
+            color: var(--primary-light);
+            font-weight: 600;
+        }
+
         /* --- Seção Cases --- */
         .cases {
             background-color: var(--section-bg);
@@ -509,6 +596,43 @@
             color: var(--text-secondary);
         }
 
+        /* --- FAQ --- */
+        .faq {
+            padding: 100px 0;
+            background-color: var(--section-bg);
+        }
+
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            background: var(--card-bg);
+            border: 1px solid #E5E7EB;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item:hover {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-color: var(--primary);
+        }
+
+        .faq-item h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .faq-item p {
+            font-size: 16px;
+            color: var(--text-dark);
+            line-height: 1.7;
+        }
+
         /* --- CTA Final --- */
         .final-cta {
             background: var(--dark-bg);
@@ -571,7 +695,7 @@
             .hero h1 { font-size: 44px; }
             .hero p { font-size: 18px; }
 
-            .pain-points, .steps-grid, .cases-grid {
+            .pain-points, .steps-grid, .cases-grid, .deliverables-grid {
                 grid-template-columns: 1fr;
             }
             .header-content {
@@ -595,9 +719,9 @@
         <!-- Seção Hero -->
         <section class="hero">
             <div class="container">
-                <h1>Transforme seu Medo de <span class="highlight">IA</span> em <span class="highlight">Poder de Fogo.</span></h1>
-                <p>Em 45 dias, você deixará de se sentir obsoleto e passará a dominar a Inteligência Artificial para acelerar seus resultados, automatizar tarefas e se tornar à prova de futuro.</p>
-                <a href="https://wa.me/5527992681959?text=Olá%20Fábio,%20quero%20agendar%20uma%20conversa%20sobre%20a%20transformação%20com%20IA" class="cta-button">Quero destravar meu potencial</a>
+                <h1>Mentoria Individual de <span class="highlight">IA</span> para Profissionais de <span class="highlight">Alto Nível</span></h1>
+                <p>Eu pego na sua mão e personalizo cada sessão para sua realidade. Domine ChatGPT, Claude e 15+ Ferramentas de IA com resultados IMEDIATOS aplicados ao seu dia a dia profissional.</p>
+                <a href="https://wa.me/5527992681959?text=Olá%20Fábio,%20quero%20agendar%20uma%20conversa%20sobre%20a%20mentoria%20de%20IA" class="cta-button">Quero Resultados Imediatos</a>
             </div>
         </section>
 
@@ -618,7 +742,7 @@
                         <p>Você vê outros usando IA e teme que sua carreira ou negócio perca a relevância no mercado.</p>
                     </div>
                     <div class="point">
-                        <div class="point-icon"> frustração</div>
+                        <div class="point-icon">😤</div>
                         <h3>Resultados Frustrantes</h3>
                         <p>Você já tentou usar o ChatGPT, mas só obtém respostas genéricas e sente que está perdendo tempo.</p>
                     </div>
@@ -641,10 +765,10 @@
                     Sua foto profissional aqui
                 </div>
                 <div class="about-text">
-                    <h2>Seu guia na revolução da IA.</h2>
-                    <p>Meu nome é Fábio Pantoja. Há mais de 3 anos, eu vivo e respiro Inteligência Artificial, todos os dias. Não como um teórico, mas como um prático, aplicando IA para resolver problemas reais e gerar resultados massivos.</p>
-                    <p>Eu já estive onde você está: confuso e um pouco intimidado. Mas eu mergulhei fundo, testei centenas de ferramentas, dominei o ChatGPT, Claude e Gemini, e descobri o que realmente funciona.</p>
-                    <p class="quote">Meu único objetivo é transformar você. Em 45 dias, pego seu medo e transformo em confiança e resultados. Sem enrolação, direto ao ponto.</p>
+                    <h2>Meu método revolucionário: soluções simples para grandes dores.</h2>
+                    <p>Meu nome é Fábio Pantoja. Há mais de 3 anos, vivo e respiro Inteligência Artificial todos os dias. Meu foco é resolver grandes dores com soluções incrivelmente simples. Quanto mais simples a solução e maior a dor que ela resolve, melhor.</p>
+                    <p>Meu maior poder? <strong>Entender exatamente onde você está (ponto A) e te levar para onde você quer chegar (ponto B) em tempo recorde.</strong> Não importa seu nível: já transformei uma pessoa que nem sabia copiar e colar em especialista. Já ajudei uma analista de 72 anos a dominar IA completamente.</p>
+                    <p class="quote">Eu pego na sua mão. Cada sessão é 100% personalizada para sua vida pessoal e profissional. O impacto é IMEDIATO: o que você aprende comigo, você aplica no mesmo dia.</p>
                 </div>
             </div>
         </section>
@@ -652,23 +776,102 @@
         <!-- Seção O Método -->
         <section class="method">
             <div class="container">
-                <h2 class="section-title">O Método de Transformação em 45 Dias</h2>
+                <h2 class="section-title">Método 100% Personalizado: Eu Pego na Sua Mão</h2>
                 <div class="steps-grid">
                     <div class="step-card">
                         <div class="step-number">01</div>
-                        <h3>Diagnóstico e Clareza</h3>
-                        <p>Na nossa primeira conversa, mapeamos seus maiores medos, suas metas e onde a IA pode gerar o maior impacto na sua vida pessoal e profissional.</p>
+                        <h3>Diagnóstico Profundo (Ponto A)</h3>
+                        <p>Entendo EXATAMENTE onde você está: seus medos, objetivos, rotina profissional e pessoal. Mapeamos onde a IA pode gerar o maior impacto IMEDIATO na sua vida.</p>
                     </div>
                     <div class="step-card">
                         <div class="step-number">02</div>
-                        <h3>Domínio Prático e Intensivo</h3>
-                        <p>Em sessões 1-a-1, você aprende o que REALMENTE funciona. Com a mão na massa, você vai dominar as técnicas e os prompts que trazem resultados de 10x.</p>
+                        <h3>Aplicação Imediata (Mão na Massa)</h3>
+                        <p>Cada sessão 1:1 é personalizada para SUA realidade. Você aprende e aplica NO MESMO DIA. Nada de teoria: só o que funciona de verdade, adaptado ao seu contexto específico.</p>
                     </div>
                     <div class="step-card">
                         <div class="step-number">03</div>
-                        <h3>Resultados Acelerados</h3>
-                        <p>Ao final de 45 dias, você não apenas "sabe" usar IA. Você a utiliza com confiança total, automatizando seu trabalho e se sentindo no controle do seu futuro.</p>
+                        <h3>Transformação Acelerada (Ponto B)</h3>
+                        <p>Em semanas (não meses!), você domina IA com confiança total. Automatiza tarefas, acelera resultados e se torna referência. O impacto é visível desde a primeira sessão.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Entregáveis -->
+        <section class="deliverables">
+            <div class="container">
+                <h2 class="section-title">O Arsenal Completo que Você Vai Dominar</h2>
+                <p style="text-align: center; color: var(--text-secondary); max-width: 800px; margin: 0 auto 50px; font-size: 18px;">
+                    Se você comprasse cada método separadamente, investiria mais de R$ 12.000. Na mentoria 1:1, você recebe TUDO personalizado para sua realidade.
+                </p>
+
+                <div class="deliverables-grid">
+                    <div class="deliverable-item">
+                        <h3>📚 Método Livro em 1 Fim de Semana</h3>
+                        <p class="price-tag">Valor: R$ 997</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🧠 Mentores Virtuais Personalizados</h3>
+                        <p class="price-tag">Valor: R$ 1.497</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>⚖️ NotebookLM Jurídico Avançado</h3>
+                        <p class="price-tag">Valor: R$ 1.997</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>⚡ Mini-Aplicativos com IA</h3>
+                        <p class="price-tag">Valor: R$ 797</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🎨 Imagens Personalizadas Profissionais</h3>
+                        <p class="price-tag">Valor: R$ 497</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🔍 Sistema de Pesquisa e Relatórios</h3>
+                        <p class="price-tag">Valor: R$ 897</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🖼️ Edição Profissional de Imagens</h3>
+                        <p class="price-tag">Valor: R$ 697</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🎯 Criação de Apresentações & Sites</h3>
+                        <p class="price-tag">Valor: R$ 597</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>👥 Conselho de Mentores Virtuais</h3>
+                        <p class="price-tag">Valor: R$ 797</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>⚙️ DITTO + Produtividade Avançada</h3>
+                        <p class="price-tag">Valor: R$ 297</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🎵 Criação de Música com IA</h3>
+                        <p class="price-tag">Valor: R$ 397</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>🎤 "Mudinho" - Ditado Inteligente</h3>
+                        <p class="price-tag">Valor: R$ 197</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>📱 Prototipagem de Apps</h3>
+                        <p class="price-tag">Valor: R$ 497</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>💡 Acesso a Todos os Prompts Validados</h3>
+                        <p class="price-tag">Valor: R$ 1.497</p>
+                    </div>
+                    <div class="deliverable-item">
+                        <h3>💬 Suporte WhatsApp 45 Dias</h3>
+                        <p class="price-tag">Valor: R$ 1.200</p>
+                    </div>
+                </div>
+
+                <div class="value-box">
+                    <p class="old-price">Valor Total Separado: R$ 12.854</p>
+                    <p class="new-price">Na Mentoria 1:1: R$ 3.000</p>
+                    <p class="highlight-text">✨ Você economiza R$ 9.854 + recebe tudo personalizado para sua realidade</p>
                 </div>
             </div>
         </section>
@@ -679,9 +882,9 @@
                 <h2 class="section-title">Prova Real de Transformação</h2>
                 <div class="cases-grid">
                     <div class="case-card">
-                        <h3>📊 De Analista a Estrategista</h3>
-                        <p>Rogério era um mestre em Excel, mas sentia a IA como uma ameaça. Hoje, ele usa IA para analisar dados e gerar estratégias, multiplicando sua produtividade.</p>
-                        <div class="case-result"><span>Resultado: Confiança e Produtividade</span></div>
+                        <h3>👵 Janice, 72 anos - Analista de Políticas Públicas</h3>
+                        <p>Estava perdida em um projeto complexo. Em 2 meses comigo, não só se "achou" como dominou IA completamente: criou 2 PDFs profissionais de 65 páginas cada, aprendeu system prompts, gerou imagens incríveis com IA e criou diagramas Mermaid. Tudo com IA aplicada ao objetivo dela.</p>
+                        <div class="case-result"><span>Resultado: De Perdida a Expert em IA</span></div>
                     </div>
                     <div class="case-card">
                         <h3>⚡ Projeto em Tempo Recorde</h3>
@@ -702,9 +905,9 @@
             <div class="container">
                 <h2 class="section-title">O que meus clientes dizem</h2>
                 <div class="testimonial-card">
-                    <p class="testimonial-text">"Eu achava que a IA iria acabar com meu emprego. O Fábio me mostrou como usá-la para me tornar 10x mais valioso. A transformação foi absurda."</p>
-                    <p class="testimonial-author">Rogério M.</p>
-                    <p class="testimonial-role">Analista de Dados</p>
+                    <p class="testimonial-text">"Eu estava completamente perdida no meu projeto. O Fábio não apenas me ajudou a me encontrar, como me ensinou a usar IA de uma forma que eu nunca imaginei possível. Aos 72 anos, criei documentos profissionais incríveis, aprendi a gerar imagens com IA e dominar ferramentas que pareciam impossíveis. O método dele é revolucionário e totalmente personalizado."</p>
+                    <p class="testimonial-author">Janice</p>
+                    <p class="testimonial-role">Analista de Políticas Públicas, 72 anos</p>
                 </div>
             </div>
         </section>
@@ -715,21 +918,22 @@
                 <h2 class="section-title">Seu Investimento na Transformação</h2>
                 <div class="pricing-card">
                     <div class="pricing-details">
-                        <h3>Pacote Completo: Domínio de IA</h3>
-                        <p class="tagline">45 dias para sua total transformação.</p>
-                        <div class="price-amount">R$ 7.500</div>
-                        <div class="price-info">À vista ou parcelado.</div>
-                        <a href="https://wa.me/5527992681959?text=Olá%20Fábio,%20gostaria%20de%20contratar%20o%20pacote%20transformação" class="cta-button">Quero me transformar</a>
+                        <h3>Mentoria Individual de IA</h3>
+                        <p class="tagline">10 sessões 100% personalizadas. Aplique e veja resultados NO MESMO DIA.</p>
+                        <div class="price-amount">R$ 3.000</div>
+                        <div class="price-info">10 sessões × R$ 300 | À vista ou parcelado em até 3×</div>
+                        <a href="https://wa.me/5527992681959?text=Olá%20Fábio,%20quero%20saber%20mais%20sobre%20a%20mentoria%20de%20IA" class="cta-button">Quero Garantir Minha Vaga</a>
                     </div>
                     <div class="pricing-features">
                         <h4>O que está incluso:</h4>
                         <ul class="features-list">
-                            <li>10 sessões intensivas e personalizadas (2h cada)</li>
-                            <li>Diagnóstico completo de suas necessidades</li>
-                            <li>Acesso a todos os meus prompts e técnicas validadas</li>
-                            <li>Suporte direto e ilimitado via WhatsApp por 45 dias</li>
-                            <li>Plano de ação para continuar evoluindo após o programa</li>
-                            <li>Garantia de resultados reais e aplicáveis</li>
+                            <li>10 sessões intensivas 100% personalizadas (2h cada)</li>
+                            <li>15+ métodos práticos aplicados à SUA realidade</li>
+                            <li>Diagnóstico profundo: do seu Ponto A ao Ponto B</li>
+                            <li>Acesso a todos os prompts e técnicas validadas</li>
+                            <li>Suporte direto via WhatsApp durante todo o programa</li>
+                            <li>Método "Pego na Sua Mão" - aplicação imediata</li>
+                            <li>Garantia de resultados reais e mensuráveis</li>
                         </ul>
                     </div>
                 </div>
@@ -742,6 +946,39 @@
                 <div class="guarantee-box">
                     <h3>Garantia de Confiança Total</h3>
                     <p>Meu compromisso é com a sua transformação. Se ao final das duas primeiras sessões você não sentir que este programa é o caminho certo para você, eu devolvo 100% do seu investimento. Sem perguntas. O risco é todo meu.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção FAQ -->
+        <section class="faq">
+            <div class="container">
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <h3>❓ Preciso saber programar ou ter conhecimento técnico?</h3>
+                        <p>Não! A mentoria é focada em aplicação prática, sem necessidade de conhecimento técnico prévio. Ensino de forma simples e direta, adaptada ao seu nível.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>❓ Como funcionam as sessões?</h3>
+                        <p>São 10 sessões de 2 horas cada, realizadas 1 vez por semana. Você agenda conforme sua disponibilidade. Cada sessão é personalizada, com foco em resolver suas dores específicas.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>❓ Funciona para minha área de atuação?</h3>
+                        <p>Sim! Os métodos são adaptáveis para qualquer área profissional. Já trabalhei com advogados, gestores, analistas e empreendedores de diversos segmentos. Personalizamos tudo para sua realidade.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>❓ Preciso pagar por ferramentas adicionais?</h3>
+                        <p>A maioria das ferramentas que ensino são gratuitas ou têm versões gratuitas robustas. Para ir além (como Claude Pro), é opcional e eu oriento quando vale a pena investir.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>❓ E se eu não conseguir resultados?</h3>
+                        <p>Após as duas primeiras sessões, se você sentir que a mentoria não é para você, devolvo 100% do investimento. O risco é todo meu.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>❓ Quanto tempo por dia preciso dedicar?</h3>
+                        <p>Além das 2 horas semanais de sessão, recomendo de 30min a 1h por dia para praticar. A prática consistente é o que gera resultados reais.</p>
+                    </div>
                 </div>
             </div>
         </section>
