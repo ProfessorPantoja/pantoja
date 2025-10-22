@@ -1,87 +1,100 @@
-# 🎯 Fábio Pantoja - Mentoria de IA
+# 💰 Sites2000 - Negócio de Templates de Sites
 
-Site profissional de vendas para mentoria 1:1 de Inteligência Artificial.
+## 🎯 Objetivo
 
----
+Criar sites profissionais para nichos específicos por R$ 2.000 cada.
 
-## 🌐 Site Publicado
-
-**https://pantoja.netlify.app**
+**Meta:** 1 site/mês = R$ 2.000 (mínimo para se manter)
 
 ---
 
-## 💼 Sobre a Mentoria
+## 📂 Estrutura
 
-**Mentoria Individual de IA para Profissionais de Alto Nível**
-
-- **Investimento:** R$ 3.000 (10 sessões × R$ 300)
-- **Formato:** 10 sessões de 2h cada, 1x por semana
-- **Duração:** ~2,5 meses
-- **Diferencial:** Resultados IMEDIATOS (aplica no mesmo dia)
-- **Garantia:** 100% reembolso após 2 primeiras sessões
-
----
-
-## 🎯 Público-Alvo
-
-- Magistrados e Juízes
-- Advogados
-- Profissionais de alto nível
-- Gestores e C-levels
-- Analistas
+```
+sites2000/
+├── templates/                    # Templates prontos por nicho
+│   ├── psicologo/               # Template completo de psicólogo
+│   ├── advogado/                # (a criar)
+│   └── nutricionista/           # (a criar)
+│
+└── docs/                        # Documentação
+    ├── INICIO-RAPIDO.md         # 🔥 COMECE AQUI!
+    ├── ESTRATEGIA-SITES-2000.md # Estratégia completa
+    └── COMO-CRIAR-GOOGLE-FORMS.md
+```
 
 ---
 
-## 📋 Diferenciais do Site
+## 🚀 Como Começar
 
-✅ SEO completo (meta tags, keywords, Open Graph)
-✅ Hero com "Pego na Sua Mão" + "Resultados IMEDIATOS"
-✅ Case da Janice (72 anos, Analista) em destaque
-✅ Seção de 15+ Entregáveis com ancoragem de preço
-✅ FAQ completo para quebrar objeções
-✅ Método personalizado A→B
-✅ Design profissional e responsivo
+### 1. **LEIA PRIMEIRO:**
+📖 `docs/INICIO-RAPIDO.md`
 
----
+### 2. **Template Pronto:**
+✅ `templates/psicologo/` - Site completo
 
-## 💡 Entregáveis da Mentoria
-
-Ver arquivo `ENTREGAVEIS.md` para lista completa dos 15+ métodos práticos.
-
-**Ancoragem de Valor:**
-- Valor total separado: R$ 12.854
-- Investimento na mentoria: R$ 3.000
-- Economia: R$ 9.854
+### 3. **Processo:**
+1. Criar Google Forms (briefing)
+2. Prospectar no Instagram
+3. Coletar dados do cliente
+4. Personalizar template
+5. Deploy no Netlify
+6. Entregar
 
 ---
 
-## 📂 Arquivos do Projeto
+## 💰 Precificação
 
-- `index.html` - Site de vendas completo
-- `.claude-context.md` - Contexto e estratégia
-- `ENTREGAVEIS.md` - Lista de entregáveis
-- `README.md` - Este arquivo
-
----
-
-## 🚀 Deploy
-
-- **Hospedagem:** Netlify (grátis)
-- **Branch principal:** main
-- **Mudanças:** Via Pull Request (branch protegida)
+- **Primeiros 3 clientes:** R$ 1.500 (portfólio)
+- **Preço padrão:** R$ 2.500
+- **Manutenção:** R$ 200-400/mês
 
 ---
 
-## 📞 Contato
+## 🎯 Nichos Prioritários
 
-**WhatsApp:** (27) 99268-1959
-
----
-
-## 🔗 Outros Projetos
-
-**Negócio de Templates de Sites:** Veja o repositório `sites2000` para o negócio de criação de sites profissionais.
+1. ⭐⭐⭐⭐⭐ Psicólogos (template pronto!)
+2. ⭐⭐⭐⭐ Advogados (a criar)
+3. ⭐⭐⭐⭐ Nutricionistas (a criar)
+4. ⭐⭐⭐ Coaches
+5. ⭐⭐⭐ Dentistas
 
 ---
 
-**Última atualização:** 22/10/2025 - 23:20
+## 📊 Meta Mensal
+
+### Mês 1:
+- 2 sites × R$ 1.500 = **R$ 3.000**
+
+### Mês 2:
+- 3 sites × R$ 2.000 = R$ 6.000
+- 2 manutenções × R$ 200 = R$ 400
+- **Total: R$ 6.400**
+
+### Mês 3:
+- 3 sites × R$ 2.500 = R$ 7.500
+- 5 manutenções × R$ 300 = R$ 1.500
+- **Total: R$ 9.000**
+
+---
+
+## 📚 Documentação
+
+- **INICIO-RAPIDO.md** - Primeiros passos
+- **ESTRATEGIA-SITES-2000.md** - Estratégia completa
+- **COMO-CRIAR-GOOGLE-FORMS.md** - Tutorial
+
+---
+
+## ✅ Status
+
+- [x] Template de psicólogo
+- [ ] Template de advogado
+- [ ] Template de nutricionista
+- [ ] Google Forms criado
+- [ ] Portfólio/demo criado
+- [ ] Primeira venda fechada
+
+---
+
+**Vamos fazer seu primeiro R$ 2.000! 🚀**
